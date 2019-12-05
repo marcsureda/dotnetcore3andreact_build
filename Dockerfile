@@ -7,6 +7,6 @@ RUN apt-get -y install nodejs
 RUN apt-get -y install zip
 RUN apt-get -t install unzip
 RUN zip -v
-RUN unzip -V
+RUN unzip -v
 RUN node -v
 RUN npm -v
